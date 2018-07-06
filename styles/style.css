@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|IM+Fell+English+SC|Indie+Flower');
+body{
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_Dw9fH5jLphuDvF4eWjBQZyhlUa-WMoMcRIiDicJb3btTQ2HSQ");
+  position:relative;
+  margin:0;
+  width:100%;
+  min-height:100vh;
+  position:absolute;
+}
+main{
+  padding-left:1%;
+  min-height:100vh;
+  position:relative;
+  margin:0;
+}
+h1{
+  font-family: 'IM Fell English SC', serif;
+  font-size:1.5em;
+  color:white;
+  justify-content:center;
+}
+li{
+    font-family: 'Dancing Script', cursive;
+  font-size:1.5em;
+  color:white;
+}
+h2{
+  font-family: 'IM Fell English SC', serif;
+  font-size:1.5em;
+  color:white;
+}
+ 
+div{
+  display:flex;
+  flex-direction:row;
+}
+li{
+  font-family: 'Dancing Script', cursive;
+  font-size:1.5em;
+  color:white;
+}
+
+img {
+  width:29%;
+  border-radius:10%;
+  border-style:solid;
+  border-width:5px;
+  border-color:Navy; 
+  margin:0;
+  /*padding:0.2%*/
+}
+
+
+}
+
+.avengers{
+  position:absolute;
+  top:4%;
+  right:50%;
+  width:15%;
+  height:40%;
+    
+}
+
+.stuff{
+  color:white;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-around;
+  algn-items:center;
+  background-color: white;
+  margin:0;
+  
+}
+.nav-item{
+  align-items:center;
+  list-style-type:none;
+  
+}
+
+.stufff{
+  color:white;
+}
+
+.otherstuff
+{
+  background:url("https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&h=750&w=1260")
+}
+
+.otherstuffother{
+  color:white;
+  font-size:150%;
+  justify-content:center;
+}
+
+.photo{
+  
+  position:absolute;
+  top:40%;
+  right:50%;
+}
+
+.snake{
+  
+  position:absolute;
+  top:40%;
+  right:10%;
+}
+
+footer {
+  background-color:white;
+  border-top: solid 3px pink;
+  /*padding:3%;*/
+  /* display:block;*/
+  /*position:fixed;*/
+  /*width:100%;*/
+  /*clear:both;*/
+  /*bottom:0; */
+  display:flex;
+  align-items:flex-end; 
+  justify-content:space-around;
+  width:100%;
+  bottom:0;
+  height:5%;
+  margin:0;
+  position:absolute;
+}
+
+.stufff{
+  color:white;
+  font-size:1.7em;
+  
+}
+
+.spiderman{
+  position:absolute;
+  bottom:2.5%;
+  right:0;
+  height:19%;
+  width:59%;
+}
+
+.baseball{
+  position:absolute;
+  top:53%;
+  right:68%;
+  height:12%;
+  width: 12%;
+}
+
+.war{
+  position:absolute;
+  bottom:5.6%;
+  right:1.5%;
+}
+
+.it{
+  position:absolute;
+  /*top:63%;*/
+  /*left:0;*/
+  bottom:5.6%;
+}
+
+
+.riverdale{
+  position:absolute;
+  top:48%;
+  right:32%;
+}
+
+.navbar a:link{
+  text-decoration:none;
+}
