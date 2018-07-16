@@ -54,11 +54,12 @@ img {
 }
 
 .avengers{
-  position:absolute;
-  top:4%;
-  right:50%;
+  /*position:absolute;*/
+  /*top:4%;*/
+  /*right:50%;*/
   width:15%;
   height:40%;
+  float:right;
     
 }
 
@@ -135,7 +136,7 @@ footer {
 }
 
 .spiderman{
-  position:absolute;
+  /*position:absolute;*/
   bottom:2.5%;
   right:0;
   height:19%;
@@ -150,26 +151,37 @@ footer {
   width: 12%;
 }
 
-.war{
-  position:absolute;
-  bottom:5.6%;
-  right:1.5%;
-}
+/*.war{*/
+  /*position:absolute;*/
+/*  bottom:5.6%;*/
+/*  right:1.5%;*/
+/*}*/
 
-.it{
-  position:absolute;
+/*.it{*/
+  /*position:absolute;*/
   /*top:63%;*/
   /*left:0;*/
-  bottom:5.6%;
-}
+/*  bottom:5.6%;*/
+/*}*/
 
 
-.riverdale{
-  position:absolute;
-  top:48%;
-  right:32%;
-}
+/*.riverdale{*/
+  /*position:absolute;*/
+/*  top:48%;*/
+/*  right:32%;*/
+/*}*/
 
 .navbar a:link{
   text-decoration:none;
+}
+
+.movies {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  order:3;
+}
+
+.spiderman {
+  width:100%;
 }
